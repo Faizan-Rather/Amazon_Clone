@@ -19,16 +19,16 @@
 // let result=myage>18?"Adult":"Not Adult";//Ternary operator.
 // console.log(result);
 // alert("Hello");
-let num=prompt("Enter the Number : ");
-if(num%9===0){
-      console.log(num," is a multiple of 9");
-}else{
-      console.log(num," is not a multiple of 9");
-}
+// let num=prompt("Enter the Number : ");
+// if(num%9===0){
+//       console.log(num," is a multiple of 9");
+// }else{
+//       console.log(num," is not a multiple of 9");
+// }
 // for-of loop:used for string and araay.
 let str="JavaScript";
-for(let i of str){
-    console.log(i);
+ for(let i of str){
+      console.log(i);
 }
 //for-in loop used for objects and arrays and returns key.
 const Student ={
@@ -36,6 +36,9 @@ const Student ={
        Age : 19,
        isPass : true
 };
-for(let key in Student){
-      console.log(key," : ",Student[key])
-}
+ for(let key in Student){
+       console.log(key," : ",Student[key])
+ }   
+ //Template Literals :
+ let special=`this is a Template Literal ${1+2+3+4+5}`;
+ console.log(special);  
